@@ -821,6 +821,7 @@
     {addJsDef productEan13=$product->ean13|escape:'html':'UTF-8'}
     {addJsDef productUpc=$product->upc|escape:'html':'UTF-8'}
     {addJsDef productWeight=$product->weight|escape:'html':'UTF-8'}
+    {addJsDef langIso=$lang_iso|escape:'html':'UTF-8'}
     {addJsDef productAvailableForOrder=$product->available_for_order|boolval}
     {addJsDef productPriceWithoutReduction=$productPriceWithoutReduction|floatval}
     {addJsDef productPrice=$productPrice|floatval}
